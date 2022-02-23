@@ -1,0 +1,96 @@
+#TicTacWowWeeWow
+Version: v1
+Date: Mon Mar 15 21:10:12 2021
+
+#Settings
+Player 1 (Human): 'R', 'red'
+Player 2 (AI): 'G', 'green'
+
+#Winner
+Player2
+
+#Replay
+Player 1: A1
+Player 2: A1
+Player 1: A2
+Player 2: A3
+Player 1: B3
+Player 2: B3
+Player 1: B2
+Player 2: C3
+
+#MovesList
+C  | | 
+  -----
+B  | | 
+  -----
+A  | | 
+  1 2 3
+
+Player 1 chooses A1
+C  | | 
+  -----
+B  | | 
+  -----
+A R| | 
+  1 2 3
+
+Player 2 chooses A1
+C G| | 
+  -----
+B  | | 
+  -----
+A R| | 
+  1 2 3
+
+Player 1 chooses A2
+C G| | 
+  -----
+B  | | 
+  -----
+A R|R| 
+  1 2 3
+
+Player 2 chooses A3
+C G| | 
+  -----
+B  | | 
+  -----
+A R|R|G
+  1 2 3
+
+Player 1 chooses B3
+C G| | 
+  -----
+B  | |R
+  -----
+A R|R|G
+  1 2 3
+
+Player 2 chooses B3
+C G|G| 
+  -----
+B  | |R
+  -----
+A R|R|G
+  1 2 3
+
+Player 1 chooses B2
+C G|G| 
+  -----
+B  |R|R
+  -----
+A R|R|G
+  1 2 3
+
+Player 2 chooses C3
+C G|G|G
+  -----
+B  |R|R
+  -----
+A R|R|G
+  1 2 3
+
+Player 2 Wins!
+
+#EOF

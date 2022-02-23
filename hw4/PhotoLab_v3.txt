@@ -1,0 +1,2 @@
+I believe that I completed the lab to the most I could do. The DIPs operations are all working as I expected them to and I compared them to the example images on the slides/on ~eecs22 directory on the the website and they seem to be the same. The only issue I might have are using asserts properly, but I think I asserted most of the functions.
+- Jonathan Sugijoto

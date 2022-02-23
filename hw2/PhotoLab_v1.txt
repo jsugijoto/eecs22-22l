@@ -1,0 +1,2 @@
+I believe that I've completed 100% of this assignment because my output images look exactly as they were shown as examples in the assignment slides. The program adds a edging, sharpening, and aging DIP filter over the original image. All of these should be working properly. 
+- Jonathan Sugijoto, 58535060

@@ -1,0 +1,2 @@
+The program completes the objectives of: Updating player info to use a struct, Decomposing program & creating the corresponding Makefile, Take Back Move Support, AI Opponents 1-3, and the Save Replay Support. I feel that I completed this program functionally to a 90% completion. Takeback is programmed so that everytime the player enters 'Z'they will be able to take back their and the AI's last move. 
+- Jonathan Sugijoto, 58535060

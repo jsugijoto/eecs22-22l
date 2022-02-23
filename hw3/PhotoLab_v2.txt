@@ -1,0 +1,3 @@
+Program does as specified, implementing the negative, posterization, and noise filters. The makefile was where I struggled the most because I couldn't implement the DDEBUG without recompiling the Photolab.o file, so I opted to make another target with debug defined and was able to compile the test using that one. Originally I wanted to compile itto compile off of the same Photolab.o file, but I was not able to figure out how to compile the .o, use it for the final part then recompile it with the debug to get the test executable.
+- Jonathan Sugijot 
+- 58535060

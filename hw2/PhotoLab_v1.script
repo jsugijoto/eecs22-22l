@@ -1,0 +1,45 @@
+Script started on Sun 24 Jan 2021 01:18:20 PM PST
+]0;jsugijot@bondi:hw2[jsugijot@bondi hw2]$ exit./PhotoLab[23Ggcc PhotoLab_v1.c -o PhotoLab -Wall -ansi -std=c99
+]0;jsugijot@bondi:hw2[jsugijot@bondi hw2]$ gcc PhotoLab_v1.c -o PhotoLab -Wall -ansi -std=c99[23Gexit[K./PhotoLab
+Welcome to PhotoLab 2021 - V1!
+-----------------------------
+1: Load PPM Image
+2: Save Image in PPM and JPEG Format
+3: Run Aging Filter
+4: Run Edge Detection Filter
+5: Run Sharpen Filter
+22: Test All Functions
+99: Exit
+-----------------------------
+Please make your choice: 22
+lambo.ppm was read successfully!
+aging.ppm was saved successfully. 
+aging.jpg was stored for viewing. 
+Aging tested!
+
+lambo.ppm was read successfully!
+edge.ppm was saved successfully. 
+edge.jpg was stored for viewing. 
+Edge tested!
+
+lambo.ppm was read successfully!
+sharpen.ppm was saved successfully. 
+sharpen.jpg was stored for viewing. 
+Sharpen tested!
+
+Welcome to PhotoLab 2021 - V1!
+-----------------------------
+1: Load PPM Image
+2: Save Image in PPM and JPEG Format
+3: Run Aging Filter
+4: Run Edge Detection Filter
+5: Run Sharpen Filter
+22: Test All Functions
+99: Exit
+-----------------------------
+Please make your choice: 99
+Exiting...
+]0;jsugijot@bondi:hw2[jsugijot@bondi hw2]$ exit
+exit
+
+Script done on Sun 24 Jan 2021 01:18:51 PM PST
