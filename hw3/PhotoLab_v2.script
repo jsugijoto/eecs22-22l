@@ -1,0 +1,80 @@
+Script started on Tue 16 Feb 2021 10:47:27 PM PST
+]0;jsugijot@bondi:hw3[jsugijot@bondi hw3]$ make clean
+rm -f *.o
+rm -f PhotoLab_v2
+rm -f PhotoLabTest
+rm -f libfilter.a
+rm -f aging.ppm
+rm -f edge.ppm
+rm -f posterize.ppm
+rm -f negative.ppm
+rm -f noise.ppm
+rm -f sharpen.ppm
+]0;jsugijot@bondi:hw3[jsugijot@bondi hw3]$ make
+gcc -Wall -ansi -std=c99 -c Advanced.c -o Advanced.o
+gcc -Wall -ansi -std=c99 -c DIPs.c -o DIPs.o
+ar rc libfilter.a DIPs.o Advanced.o
+ranlib libfilter.a
+gcc -Wall -ansi -std=c99 -c PhotoLab_v2.c -o Photolab.o
+gcc -Wall -ansi -std=c99 -c FileIO.c -o FileIO.o
+gcc -Wall -ansi -std=c99 Photolab.o FileIO.o Advanced.o DIPs.o -L. -lfilter -lm -o2 -o PhotoLab_v2
+gcc -Wall -ansi -std=c99 -g -DDEBUG -c PhotoLab_v2.c -o Photolab_d.o
+gcc -Wall -ansi -std=c99 -g -DDEBUG Photolab_d.o FileIO.o Advanced.o DIPs.o  -L. -lfilter -lm -o PhotoLabTest
+]0;jsugijot@bondi:hw3[jsugijot@bondi hw3]$ ./PhotoLab_v2
+Welcome to Photo Lab 2021 - v2!
+-------------------------
+ 1: Load a PPM image
+ 2: Save the image in PPM and JPEG format
+ 3: Run aging filter
+ 4: Run edge detection filter
+ 5: Run sharpen filter
+ 6: Run noise filter
+ 7: Run posterize filter
+ 8: Run negative filter
+22: Test all functions
+99: Exit
+--------------------------
+Please make your choice: 22
+pigeon.ppm was read successfully!
+aging.ppm was saved successfully. 
+aging.jpg was stored for viewing. 
+pigeon.ppm was read successfully!
+edge.ppm was saved successfully. 
+edge.jpg was stored for viewing. 
+pigeon.ppm was read successfully!
+sharpen.ppm was saved successfully. 
+sharpen.jpg was stored for viewing. 
+pigeon.ppm was read successfully!
+noise.ppm was saved successfully. 
+noise.jpg was stored for viewing. 
+pigeon.ppm was read successfully!
+posterize.ppm was saved successfully. 
+posterize.jpg was stored for viewing. 
+pigeon.ppm was read successfully!
+negative.ppm was saved successfully. 
+negative.jpg was stored for viewing. 
+
+-------------------------
+ 1: Load a PPM image
+ 2: Save the image in PPM and JPEG format
+ 3: Run aging filter
+ 4: Run edge detection filter
+ 5: Run sharpen filter
+ 6: Run noise filter
+ 7: Run posterize filter
+ 8: Run negative filter
+22: Test all functions
+99: Exit
+--------------------------
+Please make your choice: 99
+Exiting program.
+]0;jsugijot@bondi:hw3[jsugijot@bondi hw3]$ make PhotoLabTest
+make: `PhotoLabTest' is up to date.
+]0;jsugijot@bondi:hw3[jsugijot@bondi hw3]$ a[Ktouch Advanced.c
+]0;jsugijot@bondi:hw3[jsugijot@bondi hw3]$ make Photol[KLab_v2
+gcc -Wall -ansi -std=c99 -c Advanced.c -o Advanced.o
+gcc -Wall -ansi -std=c99 Photolab.o FileIO.o Advanced.o DIPs.o -L. -lfilter -lm -o2 -o PhotoLab_v2
+]0;jsugijot@bondi:hw3[jsugijot@bondi hw3]$ exit
+exit
+
+Script done on Tue 16 Feb 2021 10:48:08 PM PST
