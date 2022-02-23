@@ -1,0 +1,6 @@
+1: Unzip the tar file with tar xvzf Chess2_Beta_src.tar.gz
+2: Type 'make' inside of the Chess_Beta_src directory.
+3: Host the game using the command './bin/server 11800'
+4: <From 2 different computer that have followed directions 1 and 2> Connect to the host using the command "./bin/client <server host is on> 11800"
+5: Login or Signup according to the main menus and choose respective colors
+6: Enjoy the game of chess and reference the user manuals as necessary.
